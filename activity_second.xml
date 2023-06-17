@@ -1,0 +1,32 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/pokemonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="395dp"
+            android:layout_height="138dp"
+            android:layout_margin="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="SpeakableTextPresentCheck">
+
+            <!-- Add your desired CardView content for each Pokemon entry -->
+            <!-- Example: TextViews, ImageViews, etc. -->
+        </androidx.cardview.widget.CardView>
+
+        <!-- Add more CardViews as needed for additional Pokemon entries -->
+
+    </LinearLayout>
+
+</ScrollView>
